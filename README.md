@@ -249,7 +249,7 @@ SessionManagerからPrivate SubnetのEC2にアクセスできるよう設定す�
     | 名前 | aws-training-ec2 | - |
     | Amazon マシンイメージ (AMI) | Amazon Linux 2023 | 最新を指定 |
     | アーキテクチャ | 64ビット（Arm） | - |
-    | インスタンスタイプ | t4g.small | [無料トライアル](https://aws.amazon.com/jp/ec2/faqs/?nc1=h_ls#t4g-instances) |
+    | インスタンスタイプ | t4g.small | [無料トライアル](https://repost.aws/ja/articles/ARi_gf6vo6TuqNtMQdiYPKyA/announcing-amazon-ec2-t4g-free-trial-extension) |
     | キーペア名 | キーペアなしで続行 | SessionManagerを使用して接続するため不要 |
     | VPC | aws-training-vpc | - |
     | サブネット | aws-training-subnet-private1-ap-northeast-1a | private1を指定 |
