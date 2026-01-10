@@ -1,0 +1,4 @@
+create table icons (id int not null primary key, title varchar(100), image varchar(1000));
+insert into icons values (1, "Amazon Virtual Private Cloud（VPC）", "https://<画像を配置したS3バケット>.s3.ap-northeast-1.amazonaws.com/VPC.png");
+insert into icons values (2, "Amazon Elastic Compute Cloud（EC2）", "https://<画像を配置したS3バケット>.s3.ap-northeast-1.amazonaws.com/EC2.png");
+insert into icons values (3, "Amazon Simple Storage Service（S3）", "https://<画像を配置したS3バケット>.s3.ap-northeast-1.amazonaws.com/S3.png");
