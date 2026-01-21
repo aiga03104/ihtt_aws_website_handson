@@ -1,0 +1,32 @@
+// https://containers.dev/
+{
+    "name": "IHTT_20260207",
+    "build": {
+        "dockerfile": "Dockerfile",
+		"context": ".."
+    },
+    "customizations": {
+		"vscode": {
+			"settings": {
+                "workbench.colorTheme": "GitHub Dark",
+                "terminal.integrated.shell.linux": "/bin/bash",
+                "files.encoding": "utf8",
+                "files.eol": "\n",
+                "hediet.vscode-drawio.customLibraries": [
+                    {
+                        // https://github.com/m-radzikowski/diagrams-aws-icons/tree/master
+                        "entryId": "AWS-20240206",
+                        "libName": "AWS-20240206",
+                        "file": "/workspaces/ihtt_aws_website_handson/.devcontainer/AWS Architecture Icons 20240206.xml"
+                    }
+                ]
+            },
+			"extensions": [
+                "mhutchie.git-graph",
+                "davidanson.vscode-markdownlint",
+                "hediet.vscode-drawio",
+                "codezombiech.gitignore"
+            ]
+		}
+    }
+}
